@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/styles/register.css">
+    <link rel="stylesheet" href="/styles/geral.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div id="form">
+            <div id="icon">
+                <img src="../images/iconshop.png" alt="">
+            </div>
+            <div id="log-in">
+                <form action="/pages/shop.html" method="post" id="formregister">
+                    <!--Username-->
+                    
+                    <label for="username">Choose a username</label>
+                    <input required type="text" placeholder="Username" id="username">
+                
+
+                    <!--Email-->
+                    
+                        <label for="email">Your email</label>
+                        <input required type="email" placeholder="Email" id="email">
+                    
+                    <!--Password-->
+                    
+                        <label for="password">Your password</label>
+                        <input required type="password" placeholder="Password" id="password">
+                    
+                    <!--Confirm Password-->
+                    
+                        <label for="confirm-your-password">Confirm your password</label>
+                        <input required type="password" id="confirm-your-password" placeholder="Confirm your password">
+                    
+                    
+                    <button type="submit" id="registerbutton">Register</button>
+                
+                </form>
+            </div>
+        </div>
+        <script>
+            document.getElementById("registerbutton").onclick = function () {
+    window.location.href = "/pages/shop.html";
+    };
+        </script>
+    </main>
+    
+</body>
+</html>

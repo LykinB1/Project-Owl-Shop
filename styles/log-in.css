@@ -1,0 +1,80 @@
+@font-face {
+    font-family: owlfont;
+    src: url(../fonts/the_owl/TheOwl.otf);
+}
+
+@font-face {
+    font-family: owlfont2;
+    src: url(../fonts/black_owl/Black\ Owl.ttf);
+}
+
+body{
+    width: 100%;
+    background-image: url(../images/backgroundshop.jpg);
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    width: 100%;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#icon img{
+    width: 250px;
+}
+
+#log-in form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+#log-in label{
+    font-family: owlfont;
+    font-size: 40px;
+    color: white;
+}
+
+#log-in input{
+    width: 260px;
+    height: 35px;
+    background-color: transparent;
+    border: solid white;
+    border-radius: 25px;
+}
+
+input::placeholder{
+    padding-left: 10px;
+    color: white;
+}
+
+#log-in button{
+    width: 170px;
+    height: 60px;
+    background-color: #6c0ac7;
+    border: solid 5px #0986c0;
+    border-radius: 35px;
+    font-family: owlfont2;
+    font-size: 35px;
+}
+
+#log-inbutton:hover{
+    background-color: #440381 ;
+}
+
+#log-in h3{
+    margin-top: 30px;
+    color: white;
+}
+#log-in a{
+    text-decoration: none;
+}

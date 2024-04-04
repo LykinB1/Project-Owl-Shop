@@ -76,5 +76,7 @@ input::placeholder{
     color: white;
 }
 #log-in a{
+    font-family: owlfont2;
     text-decoration: none;
+    color: white;
 }

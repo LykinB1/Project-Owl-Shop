@@ -15,7 +15,7 @@
                 <img src="../images/iconshop.png" alt="">
             </div>
             <div id="log-in">
-                <form action="/pages/shop.html" method="post" id="formregister">
+                <form action="#" method="post" id="formregister">
                     <!--Username-->
                     
                     <label for="username">Choose a username</label>
@@ -38,16 +38,11 @@
                         <input required type="password" id="confirm-your-password" placeholder="Confirm your password">
                     
                     
-                    <button type="submit" id="registerbutton">Register</button>
+                    <button type="submit" id="registerbutton"><a href="/pages/shop.html" id="buttonlink">Register</a></button>
                 
                 </form>
             </div>
         </div>
-        <script>
-            document.getElementById("registerbutton").onclick = function () {
-    window.location.href = "/pages/shop.html";
-    };
-        </script>
     </main>
     
 </body>

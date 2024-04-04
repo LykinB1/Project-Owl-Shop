@@ -19,6 +19,8 @@ main{
     width: 100%;
 }
 
+/*Form*/
+
 #form{
     display: flex;
     flex-direction: column;
@@ -76,5 +78,9 @@ input::placeholder{
     color: white;
 }
 #log-in a{
+    font-family: owlfont2;
     text-decoration: none;
+    color: white;
 }
+
+/*End Form*/

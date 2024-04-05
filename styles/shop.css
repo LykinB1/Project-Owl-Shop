@@ -1,16 +1,16 @@
 @font-face {
     font-family: owlfont;
-    src: url(/fonts/the_owl/TheOwl.otf);
+    src: url(../fonts/the_owl/TheOwl.otf);
 }
 @font-face {
     font-family: owlfont2;
-    src: url(/fonts/black_owl/Black\ Owl.ttf);
+    src: url(../fonts/black_owl/Black\ Owl.ttf);
 }
 
 body{
     display: flex;
     flex-direction: column;
-    background-image: url(/images/backgroundshop.jpg);
+    background-image: url(../images/backgroundshop.jpg);
     background-size: cover;
 }
 
@@ -48,7 +48,7 @@ header{
     background-position-x: 450px;
     background-position-y: 5px;
     background-size: 35px;
-    background-image: url(/images/SVG-images/search.svg);
+    background-image: url(../images/SVG-images/search.svg);
     background-color: black;
     border: none;
     border-radius: 20px;
